@@ -1,5 +1,7 @@
 # Comparateur d'Évaluateurs d'Expressions Mathématiques
 
+English version available [here](./README.md)
+
 ## Description
 Ce projet implémente et compare différents évaluateurs d'expressions mathématiques en Python crées à l'occasion d'un projet pour le club informatique du Lycée. Le but est de comparer l'efficacité de différentes méthodes (itérative, récursive, et la fonction `eval` intégrée de Python) en termes de performance et de précision.
 
@@ -7,7 +9,7 @@ Ce projet implémente et compare différents évaluateurs d'expressions mathéma
 - `evaluate_recursive.py`: Contient l'implémentation récursive de l'évaluateur d'expressions.
 - `evaluate_iterative.py`: Contient l'implémentation itérative de l'évaluateur d'expressions.
 - `testcases/`: Répertoire contenant des fichiers de test avec des expressions mathématiques.
-- `main.py`: Script principal qui exécute les évaluateurs sur les cas de test et compare leurs performances.
+- `performances.py`: Script principal qui exécute les évaluateurs sur les cas de test et compare leurs performances.
 
 ## Fonctionnement
 Le script principal (`performances.py`) lit les expressions mathématiques à partir de fichiers dans le répertoire `testcases`. Il exécute ensuite chaque expression à travers les trois évaluateurs (itératif, récursif, et intégré) et mesure le temps nécessaire pour chaque évaluation. Les résultats et les temps d'exécution sont affichés pour comparaison.

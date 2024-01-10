@@ -1,5 +1,7 @@
 # Mathematical Expression Evaluators Comparator
 
+Version traduite en français disponible [ici](./LISEZMOI.md)
+
 ## Description
 This project implements and compares various mathematical expression evaluators in Python, created for a project at the High School Computer Club. The aim is to compare the efficiency of various methods (iterative, recursive, and Python's built-in `eval` function) in terms of performance and accuracy.
 
