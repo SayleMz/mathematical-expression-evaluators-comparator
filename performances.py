@@ -26,5 +26,5 @@ if __name__ == '__main__':
                         print('Provided answers do not match:')
                         print(f'ref: {reference} & ans: {answer}')
                         exit()
-                    reference = answer
+                reference = answer
             print() # append newline
